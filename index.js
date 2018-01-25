@@ -15,3 +15,8 @@ function increaseRankBy(n) {
     lis[i].innerHTML = parseInt(lis[i].innerHTML) + n;
   }
 }
+
+function deepestChild() {
+  const deep = document.querySelector('div#grand-node div div div div');
+  return deep;
+}
